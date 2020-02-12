@@ -13,8 +13,8 @@ cd $HOME
 
 #REQUIRED_OUTPUT="localhost [127.0.0.1] $PORT (http-alt) open"
 
-echo "output: $(< output.txt)"
-echo $REQUIRED_OUTPUT
+#echo "output: $(< output.txt)"
+#echo $REQUIRED_OUTPUT
 
 if [ ! -d "$TOMCAT" ]
 then
